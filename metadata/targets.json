@@ -1,0 +1,86 @@
+{
+ "signatures": [
+  {
+   "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
+   "sig": "adb70a81d02bf05b8353d530ba2a94b406a1c66548b7f1dde5dc9adea795358c7808df8d19a25d1f981fd892031d0a5362916687869962e65cfc7517918538ab46986da325af8321c09b1bf9827800b1ca63f56c1f812a7b92c3edfded6ebe61bca56ba29440d8f29d366d72fdfa6a12cbfed3abb8d14fdfb082c605db484fdbc3eacc2cab9a95a5e9ff9b732a23365f89ab828d49cb9f941942613ce5f65775e41b5724dce1faddc236781f7918e104ff4a07fc60f17da5a3c1b0734882e12fb86dec5a9ac563cc6ca0966f2bfe2316976a77d3a00fa09d5cbd7874519345b6f97e14c1cd4e6bafc0aa9b34cdc9d67aac194b51ade81812821871a889147718"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6OyuwnpYgc3asb9sp8rR\nI+8IBFubCsnVoNooFwK0I/mHVM37PA6GOgsfvDcwYVO5hxTSzkiiPXVkXcQvQIqj\nxYM+mIvRMoMMZYGe7FG5lyKCsOkAyRVouc65aemcpL3YvfJfk6d0emv178x5Npge\nV+mHu5FTSPmxvHH2yMQms9o8TWlrDQUBn6s24s/FFTu4Z2SQbJHhJTgFpHIl50Bq\nE28NJLSG5KI5waEaA/oQTATTLGVF/nsVouZQop34CzObpPzD+r7XqrTT7IquEfDj\nwKeCE6UWrypkCo6k7hdv9ZV/oihqeSNMzsyppvfiH9tfMS+sjte43yn5YjME9ZPd\nYwIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "law",
+     "paths": [
+      "badriver-nsn/law-xml",
+      "badriver-nsn/law-html",
+      "badriver-nsn/law-xml-codified",
+      "law/capstone",
+      "law/branch",
+      "capstone",
+      "branch"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "docs",
+     "paths": [
+      "badriver-nsn/law-docs"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+     ],
+     "name": "assets",
+     "paths": [
+      "badriver-nsn/law-static-assets"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2023-04-30T21:21:17Z",
+  "spec_version": "1.0.0",
+  "targets": {
+   "mirrors.json": {
+    "hashes": {
+     "sha256": "f9c21f266900f3e8fbc4403f3ecda70ee2588aedc279b63394405b0101f40fb8",
+     "sha512": "1930ee83fc6fb304969456419c25d65277d94e16b0f9f2591704d16d626cad809dd8e79cf04ccd7ff48e2caed056cf9267da48a3259f3982d39115c823d91056"
+    },
+    "length": 84
+   },
+   "repositories.json": {
+    "hashes": {
+     "sha256": "324ef561c9453de3a35675ad55896f230a27ec57338c031921ace6f547cd441f",
+     "sha512": "10b06d15455ff7b08c557b2081a75f7a39d81365aa8d091c38cbdfccdd25fd4fba2c8f5087a78b3679cbb5e49f66629c58d42cbc4cb08aad4642115aa1b5db29"
+    },
+    "length": 1350
+   }
+  },
+  "version": 1
+ }
+}

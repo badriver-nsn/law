@@ -1,0 +1,31 @@
+{
+ "signatures": [
+  {
+   "keyid": "cbbc84b83a0bb3ba037fe4dcfef2223124760aea7698f67b75d9c9335574e69e",
+   "sig": "751ad4da2d85f588efd4e1a3a53e73285328ec8f5092f608d00f56a159e0ddc7f4557f15e8a52a225bbb48b34fb3c886bfe08370c26ec2d5c3118af2a3801f4ef59b1c96f13b9feea342f317dcccf2894bc24305cb587ac5ea76ae193017242e6384d7b7ccb033373068e0a3fd1fe04de565647f57e52b378fbfae48ee0ffbbbfe75a21774ef36225ea1ea84353dac0ea92a62300041594db953d30a2c55676842318acf53012614247aaaa24c1ea900917f616e7d97511dd45bf33edf409a9a3becff1d0fae92de04042a53ac521098e17be1bffad80ca2996aba8d1f1bad3cf8a659a58197d9cad0b4b7749919145b9e31b60a1b2a6646ee5277d4b0ec586fe0d818f75276dd336c8a915686071100f4a94e616796adad5c05e200c948525787b0d1332e1403cdd7f28c9591c1196ce8e6b3bc8fbf481a484eeee7b399ae6e23ee0537d68c182e35cabb189779cb4ebf3938e66ccc551e0bceb95198d98fb8c7d7e8fc8c395231b7e784a40cd32fd074241c72b144efc63a79302bd8cda409"
+  }
+ ],
+ "signed": {
+  "_type": "snapshot",
+  "expires": "2023-02-06T21:21:17Z",
+  "meta": {
+   "assets.json": {
+    "version": 1
+   },
+   "docs.json": {
+    "version": 1
+   },
+   "law.json": {
+    "version": 1
+   },
+   "root.json": {
+    "version": 1
+   },
+   "targets.json": {
+    "version": 1
+   }
+  },
+  "spec_version": "1.0.0",
+  "version": 1
+ }
+}
