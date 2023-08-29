@@ -30,6 +30,14 @@
                 "serve": "historical",
                 "serve-prefix": "_xml"
             }
+        },
+        "badriver-nsn/law-static-assets": {
+            "custom": {
+                "serve": "latest",
+                "type": "static-assets",
+                "allow-unauthenticated-commits": true,
+                "location_regex": "~.+(_document|_reader).+$"
+            }
         }
     }
 }
