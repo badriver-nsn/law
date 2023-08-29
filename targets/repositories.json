@@ -2,41 +2,33 @@
     "repositories": {
         "badriver-nsn/law-docs": {
             "custom": {
-                "allow-unauthenticated-commits":true,
-                "serve":"latest",
-                "location_regex":"~/.*\\.pdf$"
+                "allow-unauthenticated-commits": true,
+                "serve": "latest",
+                "location_regex": "~/.*\\.pdf$"
             }
         },
         "badriver-nsn/law-xml": {
             "custom": {
-                "type":"xml",
-                "allow-unauthenticated-commits":true,
-                "serve":"latest",
-                "serve-prefix":"_uncodified_xml"
+                "type": "xml",
+                "allow-unauthenticated-commits": true,
+                "serve": "latest",
+                "serve-prefix": "_uncodified_xml"
             }
         },
         "badriver-nsn/law-html": {
             "custom": {
-                "preview":"https://github.com/badriver-nsn/law-html-preview.git",
-                "type":"html",
-                "serve":"historical",
-                "location_regex":"/"
+                "preview": "https://github.com/badriver-nsn/law-html-preview.git",
+                "type": "html",
+                "serve": "historical",
+                "location_regex": "/"
             }
         },
         "badriver-nsn/law-xml-codified": {
             "custom": {
-                "preview":"https://github.com/badriver-nsn/law-xml-codified-preview.git",
-                "type":"xml-codified",
-                "serve":"historical",
-                "serve-prefix":"_xml"
-            }
-        },
-        "openlawlibrary/law-static-assets": {
-            "custom": {
-                "type":"static-assets",
-                "allow-unauthenticated-commits":true,
-                "serve":"latest",
-                "location_regex":"~.+(_document|_reader).+$"
+                "preview": "https://github.com/badriver-nsn/law-xml-codified-preview.git",
+                "type": "xml-codified",
+                "serve": "historical",
+                "serve-prefix": "_xml"
             }
         }
     }
