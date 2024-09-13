@@ -1,54 +1,61 @@
 {
-  "repositories": {
-    "badriver-nsn/law-docs": {
-      "custom": {
-        "allow-unauthenticated-commits": true,
-        "serve": "latest",
-        "location_regex": "~/.*\\.pdf$",
-        "routes": [
-          ".*\\.pdf"
-        ]
-      }
-    },
-    "badriver-nsn/law-xml": {
-      "custom": {
-        "type": "xml",
-        "allow-unauthenticated-commits": true,
-        "serve": "latest",
-        "serve-prefix": "_uncodified_xml"
-      }
-    },
-    "badriver-nsn/law-html": {
-      "custom": {
-        "preview": "git@github.com:badriver-nsn/law-html-preview.git",
-        "type": "html",
-        "serve": "historical",
-        "location_regex": "/",
-        "routes": [
-          ".*"
-        ]
-      }
-    },
-    "badriver-nsn/law-xml-codified": {
-      "custom": {
-        "preview": "git@github.com:badriver-nsn/law-xml-codified-preview.git",
-        "type": "xml-codified",
-        "serve": "historical",
-        "serve-prefix": "_xml"
-      }
-    },
-    "badriver-nsn/law-static-assets": {
-      "custom": {
-        "serve": "latest",
-        "type": "static-assets",
-        "allow-unauthenticated-commits": true,
-        "location_regex": "~.+(_document|_reader).+$",
-        "is_fallback": true,
-        "routes": [
-          ".*/_document/.*",
-          "_reader/.*"
-        ]
-      }
+    "repositories": {
+        "badriver-nsn/law-docs": {
+            "custom": {
+                "allow-unauthenticated-commits": true,
+                "serve": "latest",
+                "location_regex": "~/.*\\.pdf$",
+                "routes": [
+                    ".*\\.pdf"
+                ]
+            }
+        },
+        "badriver-nsn/law-xml": {
+            "custom": {
+                "type": "xml",
+                "allow-unauthenticated-commits": true,
+                "serve": "latest",
+                "serve-prefix": "_uncodified_xml"
+            }
+        },
+        "badriver-nsn/law-html": {
+            "custom": {
+                "preview": "git@github.com:badriver-nsn/law-html-preview.git",
+                "type": "html",
+                "serve": "historical",
+                "location_regex": "/",
+                "routes": [
+                    ".*"
+                ]
+            }
+        },
+        "badriver-nsn/law-xml-codified": {
+            "custom": {
+                "preview": "git@github.com:badriver-nsn/law-xml-codified-preview.git",
+                "type": "xml-codified",
+                "serve": "historical",
+                "serve-prefix": "_xml"
+            }
+        },
+        "badriver-nsn/law-static-assets": {
+            "custom": {
+                "serve": "latest",
+                "type": "static-assets",
+                "allow-unauthenticated-commits": true,
+                "location_regex": "~.+(_document|_reader).+$",
+                "is_fallback": true,
+                "routes": [
+                    ".*/_document/.*",
+                    "_reader/.*"
+                ]
+            }
+        },
+        "badriver-nsn/law-rdf": {
+            "custom": {
+                "serve": "latest",
+                "type": "rdf",
+                "serve-prefix": "_rdf"
+            }
+        }
     }
-  }
 }
